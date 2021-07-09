@@ -1,0 +1,48 @@
+{
+  "name": "gulp-wp-theme",
+  "version": "1.2.3",
+  "description": "A WP theme boilerplate",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf .tmp && rm -rf dist",
+    "watch": "gulp watch",
+    "wordpress": "npm run clean && gulp wordpress",
+    "build": "gulp build",
+    "start:sql": "mysql.server start",
+    "start:wordpress": "npm run watch",
+    "start": "run-s start:*"
+  },
+  "author": "Cezar Luiz <cezarluiz.c@gmail.com> (https://github.com/cezarlz)",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/register": "^7.7.4",
+    "babel-loader": "^8.0.0",
+    "browser-sync": "^2.26.7",
+    "browserslist": "^4.9.1",
+    "eslint": "^6.7.1",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect-php": "^1.0.3",
+    "gulp-download": "^0.0.1",
+    "gulp-eslint": "^6.0.0",
+    "gulp-load-plugins": "^2.0.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-unzip": "^1.1.0",
+    "husky": "^3.1.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^1.19.1",
+    "terser-webpack-plugin": "^2.2.1",
+    "webpack-stream": "^5.2.1"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
+
