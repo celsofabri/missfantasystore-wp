@@ -1,8 +1,8 @@
-# gulp-wp-theme
+# missfantasystore-wp
 
 > Code in development. Get an optimized wordpress package.
 
-![gulp-wp-theme](./development/images/gulp-wp-theme.png)
+<!-- ![missfantasystore-wp](./development/images/missfantasystore-wp.png) -->
 
 ## Features
 
@@ -26,7 +26,7 @@ First of all, you need the PHP 5.4+ and MySQL installed on your environment.
 3. Download wordpress via `npm run wordpress` once
 4. Go to `development/sass/style.scss` and put your theme's information
 5. Run `npm run watch` to preview and code
-6. Install Wordpress and connect to your database, after that, sign in on Wordpress and activate the `gulp-wp-theme`
+6. Install Wordpress and connect to your database, after that, sign in on Wordpress and activate the `missfantasystore-wp`
 7. Code on the `development` folder like a theme (use full Wordpress functions)
 8. Finished? Run `npm run build` to get an optimized wordpress package on `dist` folder
 

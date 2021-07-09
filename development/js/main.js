@@ -1,1 +1,1 @@
-console.log('gulp-wp-theme works!');
+console.log('missfantasystore-wp works!');
